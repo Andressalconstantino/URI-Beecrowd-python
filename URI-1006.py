@@ -1,0 +1,10 @@
+A= float(input())
+B= float(input())
+C= float(input())
+wa= 2
+wb= 3
+wc= 5
+Y= (A * wa) + (B * wb) + (C * wc)
+Z= wa + wb + wc
+M= Y/Z
+print("MEDIA = %.1f" %M)

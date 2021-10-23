@@ -1,0 +1,7 @@
+num_array = list()
+num = input()
+num_array = list(map(int, input().split()))
+x= min(num_array)
+y = num_array.index(x)
+print ("Menor valor: %d" %x)
+print ("Posicao: %d" %y)
